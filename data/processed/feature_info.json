@@ -1,0 +1,29 @@
+{
+  "feature_columns": [
+    "sentiment_compound",
+    "sentiment_positive",
+    "sentiment_negative",
+    "sentiment_neutral",
+    "sentiment_polarity",
+    "sentiment_subjectivity",
+    "positive_words",
+    "negative_words",
+    "sentiment_incongruity",
+    "exclamation_count",
+    "question_count",
+    "caps_ratio",
+    "intensifier_count",
+    "word_count",
+    "char_count",
+    "avg_word_length",
+    "quote_count",
+    "ellipsis_count"
+  ],
+  "text_column": "cleaned_text",
+  "label_column": "label",
+  "total_samples": 78619,
+  "sarcasm_rate": 0.4921965428204378,
+  "train_size": 62895,
+  "val_size": 7862,
+  "test_size": 7862
+}

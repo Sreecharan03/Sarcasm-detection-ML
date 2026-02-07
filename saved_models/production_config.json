@@ -1,0 +1,36 @@
+{
+  "model_type": "hybrid",
+  "f1_score": 0.6692669804976462,
+  "target_achieved": false,
+  "production_ready": true,
+  "model_performance": {
+    "tfidf_only": 0.6549343441180453,
+    "contextual_only": 0.5272547076313182,
+    "hybrid": 0.6692669804976462
+  },
+  "feature_counts": {
+    "tfidf_features": 10000,
+    "contextual_features": 18,
+    "total_hybrid_features": 10018
+  },
+  "contextual_feature_names": [
+    "sentiment_compound",
+    "sentiment_positive",
+    "sentiment_negative",
+    "sentiment_neutral",
+    "sentiment_polarity",
+    "sentiment_subjectivity",
+    "positive_words",
+    "negative_words",
+    "sentiment_incongruity",
+    "exclamation_count",
+    "question_count",
+    "caps_ratio",
+    "intensifier_count",
+    "word_count",
+    "char_count",
+    "avg_word_length",
+    "quote_count",
+    "ellipsis_count"
+  ]
+}

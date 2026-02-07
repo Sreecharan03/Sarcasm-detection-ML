@@ -1,0 +1,87 @@
+{
+  "tfidf_models": {
+    "best_model": "Logistic_Regression",
+    "f1_score": 0.6549343441180453,
+    "all_results": {
+      "Logistic_Regression": {
+        "f1_score": 0.6549343441180453,
+        "precision": 0.6878021040659653,
+        "recall": 0.6250645994832041,
+        "accuracy": 0.6757822437038922
+      },
+      "SVM": {
+        "f1_score": 0.6402313093762908,
+        "precision": 0.6852343059239611,
+        "recall": 0.6007751937984496,
+        "accuracy": 0.6676418214194861
+      },
+      "Naive_Bayes": {
+        "f1_score": 0.6471215351812367,
+        "precision": 0.6681342872867364,
+        "recall": 0.6273901808785529,
+        "accuracy": 0.6631900279827017
+      },
+      "Random_Forest": {
+        "f1_score": 0.6476642913697545,
+        "precision": 0.6618122977346278,
+        "recall": 0.6341085271317829,
+        "accuracy": 0.6603917578224371
+      }
+    }
+  },
+  "contextual_models": {
+    "best_model": "Random_Forest",
+    "f1_score": 0.5707559508239602,
+    "all_results": {
+      "Logistic_Regression": {
+        "f1_score": 0.5272547076313182,
+        "precision": 0.5831506420294394,
+        "recall": 0.4811369509043928,
+        "accuracy": 0.5752989061307555
+      },
+      "SVM": {
+        "f1_score": 0.5329271830577313,
+        "precision": 0.607473544973545,
+        "recall": 0.4746770025839793,
+        "accuracy": 0.5904350038158229
+      },
+      "Random_Forest": {
+        "f1_score": 0.5707559508239602,
+        "precision": 0.5778601694915254,
+        "recall": 0.5638242894056847,
+        "accuracy": 0.5825489697278047
+      }
+    }
+  },
+  "feature_info": {
+    "feature_columns": [
+      "sentiment_compound",
+      "sentiment_positive",
+      "sentiment_negative",
+      "sentiment_neutral",
+      "sentiment_polarity",
+      "sentiment_subjectivity",
+      "positive_words",
+      "negative_words",
+      "sentiment_incongruity",
+      "exclamation_count",
+      "question_count",
+      "caps_ratio",
+      "intensifier_count",
+      "word_count",
+      "char_count",
+      "avg_word_length",
+      "quote_count",
+      "ellipsis_count"
+    ],
+    "text_column": "cleaned_text",
+    "label_column": "label",
+    "total_samples": 78619,
+    "sarcasm_rate": 0.4921965428204378,
+    "train_size": 62895,
+    "val_size": 7862,
+    "test_size": 7862
+  },
+  "target_f1_score": 0.85,
+  "experiment_date": "2025-12-20T07:30:56.041187"
+}
